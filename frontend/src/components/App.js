@@ -23,7 +23,11 @@ const alertOprions = {
 };
 
 class App extends Component {
+<<<<<<< HEAD
     componentDidMount(){
+=======
+    componentDidMount() {
+>>>>>>> 9a1212fbeb5a102f748f78fa1dafcd64f5924850
         store.dispatch(loadUser());
     }
 
