@@ -35,7 +35,7 @@ export class Login extends Component {
                                 onChange={this.onChange}
                                 className="form-control" />
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                             <button type="submit" className="btn btn-primary">
                                 Login
                             </button>
