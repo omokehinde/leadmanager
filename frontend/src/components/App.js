@@ -14,7 +14,8 @@ import PrivateRoute from './common/PrivateRoute';
 
 import { Provider } from 'react-redux';
 import store from '../store';
-import { loadUser } from '../actions/auth';
+import { loadUser, login } from '../actions/auth';
+
 
 // Alert OPtions 
 const alertOprions = {
