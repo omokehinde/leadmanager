@@ -19,6 +19,7 @@ export class Login extends Component {
     onSubmit = e => {
         e.preventDefault();
         store.dispatch(login(this.state.username, this.state.password));
+        // this.props.login(this.state.username, this.state.password);
     };
 
     onChange = e => this.setState({ [e.target.name]: e.target.value });
